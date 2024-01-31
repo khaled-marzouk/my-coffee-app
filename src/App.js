@@ -6,6 +6,7 @@ import Home from "./component/Home";
 import Services from "./component/Services";
 import Banners from "./component/Banners";
 import AppStore from "./component/AppStore";
+import Testemonial from "./component/Testemonial";
 
 function App() {
 	useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
 				<Services />
 				<Banners />
 				<AppStore />
+				<Testemonial />
 			</div>
 		</>
 	);
