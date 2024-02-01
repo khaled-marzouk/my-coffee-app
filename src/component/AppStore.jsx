@@ -13,8 +13,11 @@ const bgImage = {
 const AppStore = () => {
 	return (
 		<div style={bgImage} className="py-14">
-			<div className=" container px-14">
-				<div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 text-center ">
+			<div className=" container mx-auto">
+				<div
+					data-aos="fade-up"
+					className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 text-center "
+				>
 					<div className=" flex flex-col gap-4 max-w-xl mx-auto">
 						<h1 className="text-2xl sm:text-left text-center sm:text-4xl font-semibold text-white/90 pl-3">
 							Coffee Cafe is available for Android and IOS

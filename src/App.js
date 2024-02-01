@@ -7,6 +7,7 @@ import Services from "./component/Services";
 import Banners from "./component/Banners";
 import AppStore from "./component/AppStore";
 import Testemonial from "./component/Testemonial";
+import Footer from "./component/Footer";
 
 function App() {
 	useEffect(() => {
@@ -19,13 +20,14 @@ function App() {
 	});
 	return (
 		<>
-			<div>
+			<div className=" overflow-x-hidden">
 				<Navbar />
 				<Home />
 				<Services />
 				<Banners />
 				<AppStore />
 				<Testemonial />
+				<Footer />
 			</div>
 		</>
 	);

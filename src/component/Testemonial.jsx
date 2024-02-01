@@ -68,12 +68,15 @@ const Testemonial = () => {
 		<div className="py-14 mb-20">
 			<div className="container">
 				<div className=" text-center mb-10">
-					<h1 className="font-bold font-cursive text-4xl text-gray-800">
+					<h1
+						data-aos="fade-up"
+						className="font-bold font-cursive text-4xl text-gray-800"
+					>
 						Testimonials
 					</h1>
 				</div>
 				{/* testemonial card section  */}
-				<div>
+				<div data-aos="zoom-in" data-aos-duration="500">
 					<Slider {...settings}>
 						{TestemonialData.map((data) => (
 							<div className="my-6">

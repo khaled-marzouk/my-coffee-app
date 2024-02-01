@@ -33,7 +33,7 @@ const Services = () => {
 			<div className="py-10">
 				<div className=" container">
 					{/* header title  */}
-					<div className=" text-center mb-20">
+					<div data-aos="fade-up" className=" text-center mb-20">
 						<h1 className=" text-4xl font-bold font-cursive text-center text-gray-800">
 							Best Coffee for you{" "}
 						</h1>
