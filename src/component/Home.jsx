@@ -19,7 +19,7 @@ const Home = () => {
 								data-aos-delay="300"
 								className=" text-primary font-cursive"
 							>
-								Coffee
+								Coffeee
 							</span>{" "}
 							in the city
 						</h1>
